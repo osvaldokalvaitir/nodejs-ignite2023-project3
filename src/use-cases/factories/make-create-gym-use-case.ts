@@ -1,4 +1,4 @@
-import { PrismaGymsRepository } from '@/repositories/prisma/prisma-gyms-respository'
+import { PrismaGymsRepository } from '@/repositories/prisma/prisma-gyms-repository'
 import { CreateGymUseCase } from '../create-gym'
 
 export function makeCreateGymUseCase() {
