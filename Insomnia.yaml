@@ -1,0 +1,107 @@
+type: collection.insomnia.rest/5.0
+name: Ignite - API SOLID Node.js
+meta:
+  id: wrk_7fbfd45b84af4bfe97d91239e5b4904f
+  created: 1743511782199
+  modified: 1743511782199
+collection:
+  - url: http://localhost:3333/users
+    name: Create User
+    meta:
+      id: req_cbaf2684f97e4e19a4ecb1805d4dc0d0
+      created: 1677437965899
+      modified: 1743511813340
+      isPrivate: false
+      sortKey: -1677437965899
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Osvaldo Kalvaitir",
+        	"email": "osvaldokalvaitir@outlook.com",
+        	"password": "123456"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/sessions
+    name: Authenticate
+    meta:
+      id: req_0556040db801424bafb9a7cd66d50e41
+      created: 1677789216671
+      modified: 1743517620408
+      isPrivate: false
+      sortKey: -1677269932435.5
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email": "osvaldokalvaitir@outlook.com",
+        	"password": "123456"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:3333/me
+    name: Profile
+    meta:
+      id: req_0606f79355994f16b7bf2e7a3e89d0c8
+      created: 1678130302602
+      modified: 1743517647833
+      isPrivate: false
+      sortKey: -1677185915703.75
+    method: GET
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiM2IzY2ZkZTQtMmY4My00YmJkLTkyYzYtMmQ4ZWJiZmIwMDQ4IiwiaWF0IjoxNzQzNTE3NjIyLCJleHAiOjE3NDM1MTgyMjJ9.A1RF-wOBI_0ULy9u8mbZRnA8GftSTRqFCzYagbzdvC4
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_95d4488f5e004a979bd16aa1f74cc26c
+    created: 1677437963041
+    modified: 1743517622376
+  cookies:
+    - key: refreshToken
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTUVNQkVSIiwic3ViIjoiM2IzY2ZkZTQtMmY4My00YmJkLTkyYzYtMmQ4ZWJiZmIwMDQ4IiwiaWF0IjoxNzQzNTE3NjIyLCJleHAiOjE3NDQxMjI0MjJ9.LEc0e8oShD2Wr5hM_Lo3t1R1M0iKIiO3i8BacXK3AiA
+      domain: localhost
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-04-01T14:27:02.376Z
+      lastAccessed: 2025-04-01T14:27:02.376Z
+      sameSite: strict
+      id: dc99eeb8-cb61-46de-99c2-5800876d0284
+environments:
+  name: Base Environment
+  meta:
+    id: env_f592036ad7b04858891289b502ec021f
+    created: 1677437963040
+    modified: 1677437963040
+    isPrivate: false
