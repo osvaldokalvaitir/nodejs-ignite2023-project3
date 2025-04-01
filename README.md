@@ -79,7 +79,7 @@ npm run dev
 
 Click to learn more about the tools used:  [Docker](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker.md), [PostgreSQL Docker Image bitnami-postgresql](https://github.com/osvaldokalvaitir/awesome/blob/main/src/containers/docker/images/bitnami-postgresql.md), [Insomnia](https://github.com/osvaldokalvaitir/awesome/blob/main/src/api-clients/insomnia.md), [Git](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git.md), [GitHub](https://github.com/osvaldokalvaitir/awesome/blob/main/src/version-controls/git/tools/github.md), [GitHub Actions](https://github.com/osvaldokalvaitir/awesome/blob/main/src/ci-cd/github-actions.md).
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ignite%20-%20API%20SOLID%20Node.js&uri=https%3A%2F%2Fgithub.com%2Fosvaldokalvaitir%2Fnodejs-ignite2023-project3%2FInsomnia.har)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ignite%20-%20API%20SOLID%20Node.js&uri=https%3A%2F%2Fgithub.com%2Fosvaldokalvaitir%2Fnodejs-ignite2023-project3%2Fmain%2FInsomnia.yaml)
 
 ## :memo: License
 
